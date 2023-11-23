@@ -13,7 +13,7 @@ const Header=()=> {
                 <li><Link to={"/"}>Principal</Link></li>
                 <li><Link to={"/nacional"}>Nacional</Link></li>
                 <li><Link to={"/hidalgo"}>Hidalgo</Link></li>
-                <li><Link to={"#"}>Solicitar base de datos</Link></li>
+                <li><Link to={"/solicitar"}>Solicitar base de datos</Link></li>
                 <li><Link to={"#"}>Colaboradores</Link></li>
             </ul>
         </nav>

@@ -21,6 +21,7 @@ import InfraestructuraN from './componentes/InfraestructuraN';
 import PropiedadN from './componentes/PropiedadN';
 import GeneroN from './componentes/GeneroN';
 import TicsN from './componentes/TicsN';
+import Solicitar from './componentes/Solicitar';
 
 function App() {
   return (
@@ -54,6 +55,7 @@ function App() {
     <Route path={"/propiedadn"} element={<PropiedadN/>}/>
     <Route path={"/generon"} element={<GeneroN/>}/>
     <Route path={"/TICSN"} element={<TicsN/>}/>
+    <Route path={"/solicitar"} element={<Solicitar/>}/>
 
 
 
